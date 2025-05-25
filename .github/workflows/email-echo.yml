@@ -1,0 +1,16 @@
+name: Email Echo Workflow
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: <!--email_off-->22f1001095@ds.study.iitm.ac.in<!--/email_off-->
+        run: echo "Hello, world!"
+
